@@ -44,14 +44,6 @@ For the policies imported in Congress, multi-constraint policies are sent to
 Rule-X solver to handle and other policies like policies validation are left to the 
 current policy engine.
 
-                  API Application                                                                                 
-                        |
-                       DSE
-      ------------------+------------------
-      |                 |                 |          
- policy engine        Rule-X           data source
-
-
 Rule-X works on the DSE to get the policy description and the data table as 
 input and output the result to policy engine after solving. The architecture of 
 Rule-X in Congress is depicted in Fig.1.
