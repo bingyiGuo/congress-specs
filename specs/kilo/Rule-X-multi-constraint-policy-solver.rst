@@ -126,6 +126,7 @@ action    ::=   “action”   “{” <action>  “;”  “}”
 select    ::=    “select”  < objectiveName >*
 
 In network path selection scenario as an example, finding two disjoint paths with low delay is expressed as follows.
+
 class Path {  
 
      delay: float;
@@ -139,6 +140,7 @@ class Path {
      nodes:set; 
 
  }
+ 
  policy{
 
       rule{
@@ -157,6 +159,7 @@ For tenants network nodes deployment in Neutron, which also needs service data o
 Policies are 
 Network nodes of different Tenant are deployed in different network. 
 Different Network nodes cannot share the same host.  
+
 class Tenant {  
 
     networkID;
